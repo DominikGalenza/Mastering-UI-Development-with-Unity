@@ -53,7 +53,7 @@ public class ShowHidePanels : MonoBehaviour
             else
             {
                 pauseUp = false;
-                pausePanel.alpha = 1;
+                pausePanel.alpha = 0;
                 pausePanel.interactable = false;
                 pausePanel.blocksRaycasts = false;
                 Time.timeScale = 1;
